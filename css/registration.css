@@ -1,0 +1,43 @@
+body, html {
+	  font-family: Arial, Helvetica, sans-serif;
+	  ;
+	  background-size:cover;
+	  
+	  
+	  
+  height: 100%;	
+	}
+	
+	h1{
+		text-align: left;
+	}
+* {box-sizing: border-box;}
+
+
+#form{
+	
+    padding-left:50%;
+	padding: 20px;
+	margin: 10%;
+}
+button:hover {
+  opacity:1;
+}
+.container{
+	display: center;
+
+	margin: 10%;
+	
+	background-image: url("../images/123.jpg");
+	background-size: cover;
+}
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}

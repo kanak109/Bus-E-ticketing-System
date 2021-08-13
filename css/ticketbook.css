@@ -1,0 +1,73 @@
+
+body, html {
+	font-family: Arial, Helvetica, sans-serif;
+	;
+	background-size:cover;
+	
+	
+	
+height: 100%;	
+  }
+h1{
+	font-weight: bold;
+	text-align: left;
+}
+
+#form{
+	background-image:white;
+	width: 100%;
+
+	
+	font-family: Aller;
+	font-size: 120%;
+  
+	
+}
+
+.gender{
+	margin-top:10%;
+
+}
+.month{
+	margin-top:5%;
+
+}
+
+.Route{
+	margin-top:5%;
+
+}
+
+
+.Route1{
+	margin-top:5%;
+
+}
+.company{
+	margin-top:5%;
+
+}
+.Coachtype{
+	margin-top:5%;
+
+}
+
+.submit{
+	margin-top:5%;
+
+}
+
+
+
+
+.container
+{
+    display: center;
+    margin: 10%;
+    
+    background-image: url("../images/123.jpg");
+    background-size: cover;
+  }
+
+
+  

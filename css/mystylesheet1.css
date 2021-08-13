@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+      
+      width: 100%;
+      height: 80%;
+      margin-bottom:20%;
+    }
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #d8d8d8;
+}
+input[type=password] {
+    width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #d8d8d8;
+}
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color:  #4CAF50;                                              /*change korsi */
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: green;
+  color: white;
+  padding: 14px 50px;
+  margin-left: 10px;
+  width:40%;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 50px;
+  background-color:red;
+  width:40%;
+  margin-left:auto;
+  
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+
+
+
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+  opacity:1;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 50%;
+  }
+}
+.myslides{
+
+  height: 60%;
+}
+
